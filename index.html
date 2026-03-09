@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WASTELAND RUNNER | Постапокалиптический платформер</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <div class="score"> ТОПЛИВО: <span id="score">0</span>/100</div>
+            <div class="health">ВЫЖИВАНИЕ: <span id="health">3</span></div>
+            <div class="level">СЕКТОР: <span id="level">1</span>/3</div>
+        </div>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <div class="game-controls">
+            <button id="pauseButton">⏸️ ПАУЗА</button>
+            <button id="restartButton">🔄 РЕСТАРТ</button>
+        </div>
+        <div id="gameOverlay" class="overlay hidden">
+            <div class="overlay-content">
+                <h2 id="overlayTitle"></h2>
+                <p id="overlayMessage"></p>
+                <button id="overlayButton">🔄 НОВАЯ ИГРА</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="InputHandler.js"></script>
+<script src="Collision.js"></script>
+<script src="Platform.js"></script>
+<script src="Enemy.js"></script>
+<script src="Coin.js"></script>
+<script src="Player.js"></script>
+<script src="Game.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
