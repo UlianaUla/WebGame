@@ -27,17 +27,17 @@
 <img width="1526" height="900" alt="image" src="https://github.com/user-attachments/assets/7b371527-ef89-4072-83d9-81c8bc9e8b85" />
 
 Структура проекта
-├── index.html             # Главный HTML файл
-├── style.css              # Стили игры
-├── InputHandler.js        # Обработка клавиш
-├── Collision.js           # Система столкновений
-├── Platform.js            # Класс платформ
-├── Enemy.js               # Класс врагов
-├── Coin.js                # Класс ресурсов
-├── Player.js              # Класс игрока
-├── Game.js                # Основная логика игры
-├── main.js                # Запуск
-└── README.md             
+── index.html    # Главный HTML файл
+── style.css     # Стили игры
+── InputHandler.js    # Обработка клавиш
+── Collision.js        # Система столкновений
+── Platform.js         # Класс платформ
+── Enemy.js            # Класс врагов
+── Coin.js             # Класс ресурсов
+── Player.js           # Класс игрока
+── Game.js             # Основная логика игры
+── main.js             # Запуск
+── README.md             
 Технические детали
 - Архитектура
 - JavaScript 
